@@ -1,0 +1,67 @@
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f5f5f5;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: #111;
+  color: white;
+  padding: 15px;
+}
+
+/* Banner */
+.banner {
+  position: relative;
+}
+
+.banner h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+}
+
+.foto {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Produtos */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Botão */
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  background: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
